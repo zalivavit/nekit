@@ -349,7 +349,7 @@ template {
 }
 
 :root {
-  --font-size-base: 'Jura', sans-serif;
+  --font-size-base: 'Prosto One', cursive;
 }
 
 * {
@@ -423,18 +423,15 @@ h1 {
   font-size: clamp(24px, 10vw, 120px);
   text-transform: uppercase;
   font-weight: 600;
-  font-family: 'Prosto One', cursive;
 }
 
 h2 {
   font-size: clamp(20px, 10vw, 40px);
   text-transform: uppercase;
-  font-family: 'Prosto One', cursive;
 }
 
 h2 .line {
   font-width: 100;
-  font-family: var(--font-size-base);
   animation: .7s linear 1s infinite alternate opacity;
 }
 
@@ -444,7 +441,6 @@ h2 .line {
 }
 
 .info__grid * {
-  font-family: 'Prosto One', cursive;
   font-size: clamp(18px, 3vw, 24px);
 }
 
@@ -467,7 +463,6 @@ h2 .line {
 }
 
 .info__details p {
-  font-family: 'Prosto One', cursive;
   font-size: clamp(10px, 3vw, 24px);
   margin: 0;
 }
